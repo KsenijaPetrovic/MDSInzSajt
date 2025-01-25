@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+body{
+    
+    background: linear-gradient(245.59deg, #234e78 0%, #314367 28.53%, #29314b 75.52%);
+}
+
+header{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+}
+
+nav{
+    background: linear-gradient(245.59deg, #234e78 0%, #314367 28.53%, #29314b 75.52%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 40px;
+}
+
+.logo{
+    color: white;
+    font-size: 28px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.linkovi li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    
+}
+
+.linkovi a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.linkovi a:hover{
+    color: red;
+    transition: .3s;
+}
+
+.btn{
+    border: none;
+    background: red;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.hero {
+    background: linear-gradient(245.59deg, #234e78 0%, #314367 28.53%, #29314b 75.52%);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.team {
+    background-color: #f4f4f4;
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.misijaVizija {
+    background-color: #e0f7fa;
+    color: #234e78;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+footer{
+    background: linear-gradient(245.59deg, #234e78 0%, #314367 28.53%, #29314b 75.52%);
+}
+
+.footerContainer{
+    width: 100%;
+    padding: 20px 30px 20px;
+}
+
+.ikonice{
+    display: inline-block;
+    justify-content: center;
+}
+
+.ikonice a{
+    text-decoration: none;
+    padding: 20px;
+    background-color: white;
+    margin: 30px;
+    border-radius: 50%;
+}
+
+.ikonice a i{
+    font-size: 1em;
+    color: linear-gradient(245.59deg, #234e78 0%, #314367 28.53%, #29314b 75.52%);
+    opacity: 0.9;
+}
+
+.ikonice a:hover{
+    background-color: linear-gradient(245.59deg, #234e78 0%, #314367 28.53%, #29314b 75.52%);
+    transition: 0.5s;
+}
+
+.ikonice a:hover i{
+    color: red;
+    transition: 0.9s;
+}
+
+.navLinks ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+
+
+
+
